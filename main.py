@@ -8,8 +8,8 @@ znaki = ["+","-","/","*","!","&","$","#","?","=","@",
          '5','6','7','8','9',"0"]
 haslo = ""
 while True:
-    how_long = int(input("wpisz jakie długie ma być hasło"))
-    if len(how_long) < 4:
+    how_long = int(input("wpisz jakie długie ma być hasło "))
+    if how_long < 4:
         print( "za krótkie hasło!") 
     else:
         break
